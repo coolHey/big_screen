@@ -13,5 +13,5 @@ $designHeight: 1080;
 
 // px 转换 vh 函数
 @function vh($px) {
-  @return math.dvi($px, $designHeight) * 100vh;
+  @return math.div($px, $designHeight) * 100vh;
 }
