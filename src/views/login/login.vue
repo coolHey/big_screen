@@ -45,7 +45,7 @@ export default {
   methods: {
     goPage() {
       this.$router.push({
-        path: "/",
+        path: "/home",
       });
     },
   },
